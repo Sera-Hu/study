@@ -39,3 +39,10 @@ void main() {
   print(solution.isPalindrome(0));
   print(solution.isPalindrome(909));
 }
+
+/**
+ * 优化思路:
+ * 负数可以直接返回 false
+ * %10 生成新的数据
+ * 两套数据相比<个数 分奇数 和 偶数>
+ */
